@@ -158,7 +158,7 @@ public class SQLiteConnectionManager {
         int result = resultRows.getInt("total");
         return (result >= 1);
       }
-
+//test
       return false;
 
     } catch (SQLException e) {
